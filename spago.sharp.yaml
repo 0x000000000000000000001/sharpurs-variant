@@ -1,0 +1,134 @@
+package:
+  name: variant
+  dependencies:
+    - assert
+    - control
+    - effect
+    - either
+    - enums
+    - foldable-traversable
+    - lists
+    - maybe
+    - partial
+    - prelude
+    - record
+    - tuples
+    - type-equality
+    - unsafe-coerce
+  test:
+    main: Test.Main
+    dependencies:
+      - assert
+      - console
+      - effect
+
+workspace:
+  packageSet:
+    registry: 77.10.1
+  extraPackages:
+    aff:
+      path: "../sharpurs-aff"
+    argonaut-core:
+      path: "../sharpurs-argonaut-core"
+    arrays:
+      path: "../sharpurs-arrays"
+    assert:
+      path: "../sharpurs-assert"
+    avar:
+      path: "../sharpurs-avar"
+    backend-optimizer:
+      path: "../sharpurs-backend-optimizer"
+    catenable-lists:
+      path: "../sharpurs-catenable-lists"
+    console:
+      path: "../sharpurs-console"
+    datetime:
+      path: "../sharpurs-datetime"
+    effect:
+      path: "../sharpurs-effect"
+    enums:
+      path: "../sharpurs-enums"
+    exceptions:
+      path: "../sharpurs-exceptions"
+    foldable-traversable:
+      path: "../sharpurs-foldable-traversable"
+    foreign:
+      path: "../sharpurs-foreign"
+    foreign-object:
+      path: "../sharpurs-foreign-object"
+    free:
+      path: "../sharpurs-free"
+    functions:
+      path: "../sharpurs-functions"
+    hello-world:
+      path: "../sharpurs-hello-world"
+    integers:
+      path: "../sharpurs-integers"
+    js-bigints:
+      path: "../sharpurs-js-bigints"
+    js-date:
+      path: "../sharpurs-js-date"
+    js-promise:
+      path: "../sharpurs-js-promise"
+    js-promise-aff:
+      path: "../sharpurs-js-promise-aff"
+    js-uri:
+      path: "../sharpurs-js-uri"
+    lazy:
+      path: "../sharpurs-lazy"
+    node-buffer:
+      path: "../sharpurs-node-buffer"
+    node-event-emitter:
+      path: "../sharpurs-node-event-emitter"
+    node-fs:
+      path: "../sharpurs-node-fs"
+    node-http:
+      path: "../sharpurs-node-http"
+    node-net:
+      path: "../sharpurs-node-net"
+    node-path:
+      path: "../sharpurs-node-path"
+    node-process:
+      path: "../sharpurs-node-process"
+    node-streams:
+      path: "../sharpurs-node-streams"
+    now:
+      path: "../sharpurs-now"
+    nullable:
+      path: "../sharpurs-nullable"
+    numbers:
+      path: "../sharpurs-numbers"
+    ordered-collections:
+      path: "../sharpurs-ordered-collections"
+    partial:
+      path: "../sharpurs-partial"
+    prelude:
+      path: "../sharpurs-prelude"
+    quickcheck:
+      path: "../sharpurs-quickcheck"
+    random:
+      path: "../sharpurs-random"
+    record:
+      path: "../sharpurs-record"
+    refs:
+      path: "../sharpurs-refs"
+    run:
+      path: "../sharpurs-run"
+    simple-json:
+      path: "../sharpurs-simple-json"
+    spec:
+      path: "../sharpurs-spec"
+    st:
+      path: "../sharpurs-st"
+    strings:
+      path: "../sharpurs-strings"
+    strings-extra:
+      path: "../sharpurs-strings-extra"
+    unfoldable:
+      path: "../sharpurs-unfoldable"
+    unsafe-coerce:
+      path: "../sharpurs-unsafe-coerce"
+    uuid:
+      path: "../sharpurs-uuid"
+    yoga-json:
+      path: "../sharpurs-yoga-json"
