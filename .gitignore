@@ -9,3 +9,5 @@ output.bak/
 npm-debug.log
 .psa-stash
 .spago
+.purmeta/
+.DS_Store
